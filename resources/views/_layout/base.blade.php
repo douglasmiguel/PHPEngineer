@@ -9,7 +9,7 @@
         <header class="main-header">
             <a href="{{ route('home') }}" class="logo">
                 <span class="logo-mini"><b>{{ $config->admin_lte_collapsed_1 }}</b>{{ $config->admin_lte_collapsed_2 }}</span>
-                <span class="logo-lg"><b>{{ $config->admin_lte_collapsed_1 }}</b> {{ $config->admin_lte_title_2 }}</span>
+                <span class="logo-lg"><b>{{ $config->admin_lte_title_1 }}</b> {{ $config->admin_lte_title_2 }}</span>
             </a>
             @include('_layout.nav')
         </header>
