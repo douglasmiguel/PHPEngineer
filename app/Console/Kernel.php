@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Console;
+namespace PHPEngineer\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

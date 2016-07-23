@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Console\Commands;
+namespace PHPEngineer\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Models;
+namespace PHPEngineer\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\SoftDeletes;

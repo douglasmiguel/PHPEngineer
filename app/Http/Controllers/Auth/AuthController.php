@@ -1,10 +1,10 @@
 <?php
 
-namespace Digined\Http\Controllers\Auth;
+namespace PHPEngineer\Http\Controllers\Auth;
 
 use Validator;
-use Digined\Models\User;
-use Digined\Http\Controllers\Controller;
+use PHPEngineer\Models\User;
+use PHPEngineer\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

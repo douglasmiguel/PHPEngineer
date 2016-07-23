@@ -1,8 +1,8 @@
 <?php
 
-namespace Digined\Http\Controllers\Auth;
+namespace PHPEngineer\Http\Controllers\Auth;
 
-use Digined\Http\Controllers\Controller;
+use PHPEngineer\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

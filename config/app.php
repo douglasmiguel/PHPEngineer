@@ -153,10 +153,10 @@ return [
         /*
          * Application Service Providers...
          */
-        Digined\Providers\AppServiceProvider::class,
-        Digined\Providers\AuthServiceProvider::class,
-        Digined\Providers\EventServiceProvider::class,
-        Digined\Providers\RouteServiceProvider::class,
+        PHPEngineer\Providers\AppServiceProvider::class,
+        PHPEngineer\Providers\AuthServiceProvider::class,
+        PHPEngineer\Providers\EventServiceProvider::class,
+        PHPEngineer\Providers\RouteServiceProvider::class,
 
         /*
          * Third-part...

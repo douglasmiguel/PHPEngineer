@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Http\Middleware;
+namespace PHPEngineer\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

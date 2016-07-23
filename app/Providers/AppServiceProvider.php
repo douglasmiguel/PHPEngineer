@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Providers;
+namespace PHPEngineer\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //  Menu
-        class_alias('Digined\Helpers\Menu', 'Menu');
+        class_alias('PHPEngineer\Helpers\Menu', 'Menu');
     }
 
     /**

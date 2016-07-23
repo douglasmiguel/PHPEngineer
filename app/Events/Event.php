@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Events;
+namespace PHPEngineer\Events;
 
 abstract class Event
 {

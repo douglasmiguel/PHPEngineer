@@ -22,7 +22,7 @@
             "database"
         ],
         "psr-4": {
-            "Digined\\": "app/"
+            "PHPEngineer\\": "app/"
         }
     },
     "autoload-dev": {

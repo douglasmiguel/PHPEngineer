@@ -34,7 +34,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Digined\User::class,
+        'model' => PHPEngineer\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

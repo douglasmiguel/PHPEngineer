@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Helpers;
+namespace PHPEngineer\Helpers;
 
 use Session;
 

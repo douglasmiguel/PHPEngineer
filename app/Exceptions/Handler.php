@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Exceptions;
+namespace PHPEngineer\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

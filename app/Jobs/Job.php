@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Jobs;
+namespace PHPEngineer\Jobs;
 
 use Illuminate\Bus\Queueable;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Digined\Http\Controllers;
+namespace PHPEngineer\Http\Controllers;
 
-use Digined\Http\Requests;
+use PHPEngineer\Http\Requests;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

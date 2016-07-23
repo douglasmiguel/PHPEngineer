@@ -1,6 +1,6 @@
 <?php
 
-namespace Digined\Providers;
+namespace PHPEngineer\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Digined\Model' => 'Digined\Policies\ModelPolicy',
+        'PHPEngineer\Model' => 'PHPEngineer\Policies\ModelPolicy',
     ];
 
     /**
