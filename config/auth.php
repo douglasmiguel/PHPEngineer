@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Digined\Models\User::class,
+            'model' => PHPEngineer\Models\User::class,
         ],
 
         // 'users' => [

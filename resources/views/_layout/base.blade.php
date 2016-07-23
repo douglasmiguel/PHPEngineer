@@ -25,6 +25,6 @@
     <script src="{{ $config->path_root }}plugins/sweet-alert/sweet-alert.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="{{ $config->path_root }}plugins/sweet-alert/sweet-alert.init.js" type="text/javascript" charset="utf-8"></script>
     @yield('js')
-    <script src="{{ $config->path_root }}js/Digined.js"></script>
+    <script src="{{ $config->path_root }}js/PHPEngineer.js"></script>
 </body>
 </html>

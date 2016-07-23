@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://dev.digined.douglasmiguel.com.br'),
+    'url' => env('APP_URL', 'http://dev.developer.douglasmiguel.com.br'),
 
     /*
     |--------------------------------------------------------------------------
