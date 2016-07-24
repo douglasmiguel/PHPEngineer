@@ -16,4 +16,4 @@ Route::get('/github', ['as' => 'github', 'uses' => 'HomeController@github']);
 
 //  Projects
 Route::get('/projects', ['as' => 'project.index', 'uses' => 'ProjectController@index']);
-Route::get('/projects/{projectId}', ['as' => 'project.show', 'uses' => 'ProjectController@show']);
+Route::get('/projects/{slug}', ['as' => 'project.show', 'uses' => 'ProjectController@show']);

@@ -7,10 +7,57 @@
         <small>-</small>
     </h1>
 </section>
-<section class="content">
-    <p>Paenitet me quod tu me rogas? Oh, sic, qui stultus plastic continentis rogavi te ut emas. Vides non manducare acidum hydrofluoric per plastic. Erit autem dissolvere metalli petram, vitrum, tellus. Ita quod illic '. Quam de aliquo cum aliqua interdum, maybe? Aliquid viride, huh? Quam vos sunt etiam vivere?</p>
-    <p>Quinquaginta septem est - pars tua, triginta quinque millia. Est autem extra plus quindecim, tota tua est, quom meruisset. Fac nos fecit. SIC. Puto quia una res potest - venimus in cognitionem. Vide pretium in manibus. Sed finge iustum faciens quod qualibet septimana. SIC. Duis duas libras triginta quinque milia pondo.</p>
-    <p>Respice ... Sentio sicut ego vobis exponam: sed vias breve iterum conabor. Fugere hoc maior difficultas est nobis. Perdet eam batch nostri. Et delebis eam ac omnia opus est vestigium, ut possimus coques. Sin id, quod morte morieris. Locus non est peccatum. Nec apud hos.</p>
-    <p>Aut si rem a me pecuniam in Midiam elit. Nec ego in imperio elit. Id quod sum sub potestate felis. Etiam Id est - problema solvenda. Skyler est simplex partitio - introducam pecuniam, pecuniam launder. Id quod vobis deerat.</p>
+<section class="content graduation">
+    <div class="row">
+        <div class="col-md-12">
+            {{-- Not graduate --}}
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Not graduate</h3>
+                </div>
+                <div class="box-body">
+                    <p>Throughout my career I have always given emphasis in my professional career and often saw me with opportunities that forced me to leave college and me relocating. The conclusion of my place at the end of the year 2016, for this last semester I only pending reports for delivery, as the course is online there is no need for any classroom activity, all the tests have been performed.</p>
+                </div>
+            </div>
+            {{-- IT Management --}}
+            <div class="box box-warning">
+                <div class="box-header with-border">
+                    <h3 class="box-title">IT Management</h3>
+                    <p>Tecnólogo em Gestão da Tecnologia da Informação EAD</p>
+                </div>
+                <div class="box-body">
+                    <h3><a href="http://portal.anhembi.br/" target="_blank">Universidade Anhembi Morumbi</a></h3>
+                    <h4>São Paulo – SP</h4>
+                    <p>Startet at 2013 July</p>
+                    <p>Forecasted Completion December 2016 <em>*</em></p>
+                    <p class="info"><em>*</em> All disciplines have been completed, lacking only fulfill 120 hours of extracurricular courses and submit an internship report (professional experience). The delivery of these documents need not be in person.</p>
+                </div>
+            </div>
+            {{-- System Analyses and Development --}}
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">System Analyses and Development</h3>
+                    <p>Análise e Desenvolvimento de Sistemas</p>
+                </div>
+                <div class="box-body">
+                    <h3><a href="http://www.ibta.edu.br/" target="_blank">IBTA</a></h3>
+                    <h4>São Paulo – SP</h4>
+                    <p>Three semesters - 2010 / 2011</p>
+                </div>
+            </div>
+            {{-- Information Systems --}}
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Information Systems</h3>
+                    <p>Sistemas de Informação</p>
+                </div>
+                <div class="box-body">
+                    <h3><a href="http://www.uniube.br/" target="_blank">Universidade de Uberaba (UNIUBE)</a></h3>
+                    <h4>Uberaba - MG</h4>
+                    <p>Three semesters - 2005 / 2006</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 @endsection

@@ -1,0 +1,52 @@
+
+/***
+ *  General
+ */
+.button-back {
+    margin: 30px 0;
+}
+.centered-text {
+    text-align:center
+}
+.box-body h3 {
+    margin: 0;
+}
+.content-header h1 a {
+    color: #333;
+}
+
+/***
+ *  Projects
+ */
+.projects {
+    margin: 10px 0 80px 0;
+}
+.projects li {
+    font-size: 18px;
+    margin: 5px 0;
+    list-style: square;
+}
+.project .images {
+    margin: 10px 0 30px;
+}
+.project .images .image {
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+}
+.project .images .image img {
+    width: 100%;
+}
+
+/***
+ *  Graduation
+ */
+.graduation .box-body em {
+    color: red;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+.graduation .box-body .info {
+    font-style: italic;
+    color: #333;
+}

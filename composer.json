@@ -8,7 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "itsgoingd/clockwork": "~1.12",
-        "thomaswelton/laravel-gravatar": "~1.0"
+        "thomaswelton/laravel-gravatar": "~1.0",
+        "intervention/image": "~2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

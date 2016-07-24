@@ -17,13 +17,17 @@ class ProjectController extends Controller
 
     public function index()
     {
-        $projects = Project::info()->get();
+        $projects = Project::all();
         return view('project.index', ['projects'=>$projects, ]);
     }
 
-    public function show($projectId)
+    public function show($slug)
     {
-        return view('project.show', []);
+        $project = Project::info()->where('slug', $slug)->first();
+        if(empty($project)) {
+            abort(404);
+        }
+        return view('project.show', ['project'=>$project]);
     }
 
 }
