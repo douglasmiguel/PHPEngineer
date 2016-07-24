@@ -25,6 +25,16 @@ class HomeController extends Controller
         return view('page.about');
     }
 
+    public function graduation()
+    {
+        return view('page.graduation');
+    }
+
+    public function recommendation()
+    {
+        return view('page.recommendation');
+    }
+
     public function technology()
     {
         return view('page.technology');

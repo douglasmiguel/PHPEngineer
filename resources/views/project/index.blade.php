@@ -8,12 +8,18 @@
     </h1>
 </section>
 <section class="content">
-    <div class="projects">
-        <div class="project">
-            <h2>project title</h2>
-            <p>project description</p>
-            <a href="{{ route('project.show', 1) }}" title="see more details about this project: ">see more</a>
-        </div>
-    </div>
+    <p>List of the main projects developed over 14 years working as a web developer and technical lead development teams.</p>
+    <p>If you have any questions about any ot those projects please send me an email.</p>
+    <ul class="projects">
+        @forelse ($projects as $project)
+        <li class="project">
+            <a href="{{ route('project.show', $project->slug) }}" title="see more details about this project: {{ $project->title }}">{{ $project->title }}</a> ({{ $project->year }})
+        </li>
+        @empty
+        <li class="empty">
+            <p>No project available.</p>
+        </li>
+        @endforelse
+    </ul>
 </section>
 @endsection

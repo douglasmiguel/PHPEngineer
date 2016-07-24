@@ -4,6 +4,7 @@ namespace PHPEngineer\Http\Controllers;
 
 use PHPEngineer\Http\Requests;
 use Illuminate\Http\Request;
+use PHPEngineer\Models\Project;
 
 class ProjectController extends Controller
 {
@@ -16,7 +17,8 @@ class ProjectController extends Controller
 
     public function index()
     {
-        return view('project.index', []);
+        $projects = Project::info()->get();
+        return view('project.index', ['projects'=>$projects, ]);
     }
 
     public function show($projectId)

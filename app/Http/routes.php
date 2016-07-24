@@ -9,6 +9,8 @@ Route::post('menu', ['as' => 'menu', 'uses' => 'HomeController@menu']);
 
 //  Pages
 Route::get('/about', ['as' => 'about', 'uses' => 'HomeController@about']);
+Route::get('/graduation', ['as' => 'graduation', 'uses' => 'HomeController@graduation']);
+Route::get('/recommendation', ['as' => 'recommendation', 'uses' => 'HomeController@recommendation']);
 Route::get('/technology', ['as' => 'technology', 'uses' => 'HomeController@technology']);
 Route::get('/github', ['as' => 'github', 'uses' => 'HomeController@github']);
 
