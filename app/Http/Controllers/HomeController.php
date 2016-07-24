@@ -25,9 +25,9 @@ class HomeController extends Controller
         return view('page.about');
     }
 
-    public function graduation()
+    public function education()
     {
-        return view('page.graduation');
+        return view('page.education');
     }
 
     public function recommendation()

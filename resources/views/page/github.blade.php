@@ -15,7 +15,19 @@
                     <h3 class="box-title"><i class="fa fa-code"></i> This project</h3>
                 </div>
                 <div class="box-body">
-                    <p></p>
+                    <p>This project is available on <i class="fa fa-github"></i> <strong>GitHub</strong>:</p>
+                    <h4><a href="https://github.com/douglasmiguel/PHPEngineer" target="_blank">https://github.com/douglasmiguel/PHPEngineer</a></h4>
+                    <br>
+                    <p>It was developed with:</p>
+                    <ul>
+                        <li><a href="https://laravel.com/docs/5.2/" target="_blank">Laravel 5.2</a> (composer, migrations, artisan, etc...)</li>
+                        <li>Bootstrap <a href="https://almsaeedstudio.com/preview" target="_blank">AdminLTE</a></li>
+                        <li>MySQL</li>
+                        <li>SublimeText</li>
+                        <li><span class="badge bg-green">Linode</span> Ubuntu 14.04 + PHP 5.6 + MySQL</li>
+                        <li><span class="badge bg-blue">GitHub</span> Automatic deploy on branch <strong>prod</strong></li>
+                        <li>Some <i class="fa fa-coffee"></i> coffee and a lot of <i class="fa fa-heart"></i> love!!!</li>
+                    </ul>
                 </div>
             </div>
         </div>

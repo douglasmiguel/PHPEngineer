@@ -26,27 +26,22 @@
     margin: 5px 0;
     list-style: square;
 }
-.project .images {
-    margin: 10px 0 30px;
+.project-images .box-body a {
+    width: 100%;
 }
-.project .images .image {
-    width: 30%;
-    float: left;
-    margin: 0 1.5%;
-}
-.project .images .image img {
+.project-images .box-body a img {
     width: 100%;
 }
 
 /***
- *  Graduation
+ *  Education
  */
-.graduation .box-body em {
+.education .box-body em {
     color: red;
     font-size: 1.4em;
     line-height: 1em;
 }
-.graduation .box-body .info {
+.education .box-body .info {
     font-style: italic;
     color: #333;
 }

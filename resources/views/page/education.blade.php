@@ -3,11 +3,10 @@
 @section('content')
 <section class="content-header">
     <h1>
-        <i class="fa fa-graduation-cap"></i> Graduation
-        <small>-</small>
+        <i class="fa fa-graduation-cap"></i> Education
     </h1>
 </section>
-<section class="content graduation">
+<section class="content education">
     <div class="row">
         <div class="col-md-12">
             {{-- Not graduate --}}
@@ -16,7 +15,7 @@
                     <h3 class="box-title">Not graduate</h3>
                 </div>
                 <div class="box-body">
-                    <p>Throughout my career I have always given emphasis in my professional career and often saw me with opportunities that forced me to leave college and me relocating. The conclusion of my place at the end of the year 2016, for this last semester I only pending reports for delivery, as the course is online there is no need for any classroom activity, all the tests have been performed.</p>
+                    <p>Throughout my career I have always given emphasis on my professional goals, which have often presented as opportunities that forced me to leave college and relocate. I am currently enrolled in an online IT Management course,  to be concluded at year 2016, when I will have my diploma.</p>
                 </div>
             </div>
             {{-- IT Management --}}
@@ -30,7 +29,7 @@
                     <h4>São Paulo – SP</h4>
                     <p>Startet at 2013 July</p>
                     <p>Forecasted Completion December 2016 <em>*</em></p>
-                    <p class="info"><em>*</em> All disciplines have been completed, lacking only fulfill 120 hours of extracurricular courses and submit an internship report (professional experience). The delivery of these documents need not be in person.</p>
+                    <p class="info"><em>*</em> All disciplines have been completed, pending only the 120 hours of extracurricular courses to be submitted, as well as an internship report (professional experience). The delivery of these documents need not be in person.</p>
                 </div>
             </div>
             {{-- System Analyses and Development --}}

@@ -15,25 +15,32 @@
         <div class="col-md-12">
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="box-title">{{ $project->title }}</h3>
+                    <h3 class="box-title">{{ $project->title }} (<em><strong>{{ $project->year }}</strong></em>)</h3>
+                </div>
+                <div class="box-body">
+                    <h5><a href="{{ $project->url }}" target="_blank">{{ $project->url }}</a></h5>
                     <p>{!! $project->description !!}</p>
                     @foreach($project->technologies as $technology)<span class="badge bg-purple">{{ $technology->technology->technology }}</span> @endforeach
-                </div>
-                <div class="box-body project">
-                    @if(count($project->images)>0)
-                    <div class="images">
-                        @foreach($project->images as $image)
-                        <div class="image">
-                            <a href="javascript:void();"><img src="{{ $config->path_root }}image/project/{!! $image->image !!}" alt="{!! $image->description !!}" title="{!! $image->description !!}"></a>
-                        </div>
-                        @endforeach
-                        <div class="clearfix"></div>
-                    </div>
-                    @endif
                 </div>
             </div>
         </div>
     </div>
+    @if(count($project->images)>0)
+    <div class="row project-images">
+        @foreach($project->images as $image)
+        <div class="col-md-4">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <p>{!! $image->description !!}</p>
+                </div>
+                <div class="box-body">
+                    <a href="{{ $config->path_root }}image/project/{!! $image->image !!}" target="_blank"><img src="{{ $config->path_root }}image/project/{!! $image->image !!}" alt="{!! $image->description !!}" title="{!! $image->description !!}"></a>
+                </div>
+            </div>
+        </div>
+        @endforeach
+    </div>
+    @endif
     <div class="row button-back">
         <div class="col-xs-2"></div>
         <div class="col-xs-8">

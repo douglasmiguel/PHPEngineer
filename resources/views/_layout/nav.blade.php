@@ -20,7 +20,7 @@
                     </li>
                     <li class="user-footer">
                         <div class="pull-right">
-                            <a href="{{ url('/logout') }}" class="btn btn-default btn-flat">Sair</a>
+                            <a href="{{ url('/logout') }}" class="btn btn-default btn-flat">Sign out</a>
                         </div>
                     </li>
                 </ul>

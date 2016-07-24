@@ -12,8 +12,8 @@
         <div class="col-md-12">
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <p>List of the main projects developed over 14 years working as a web developer and technical lead development teams.</p>
-                    <p>If you have any questions about any ot those projects please send me an email.</p>
+                    <p>List of the main projects developed over 14 years of working as a web developer and technical lead for development teams.</p>
+                    <p>If you have any questions about any of these projects please send me an email.</p>
                 </div>
                 <div class="box-body">
                     <ul class="projects">

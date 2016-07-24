@@ -11,7 +11,7 @@ class ProjectTableSeeder extends Seeder
             [
                 'id'            => 1,
                 'title'         => 'Alimentos Sem Mitos',
-                'description'   => 'Site of a USP project (Univerdade of São Paulo) on healthy eating. Responsibilities: application layout (HTML, CSS, jQuery), admin development using Laravel 5.2, BladeTemplate and AdminLTE and website development using Laravel 5.2 and BladeTemplate.',
+                'description'   => 'Project for USP (Universidade of São Paulo) on healthy eating. Responsibilities: application layout (HTML, CSS, jQuery), admin development using Laravel 5.2, BladeTemplate and AdminLTE and website development using Laravel 5.2 and BladeTemplate.',
                 'url'           => 'http://alimentossemmitos.com.br/',
                 'year'          => '2016',
                 'slug'          => 'alimentos-sem-mitos',
@@ -57,7 +57,7 @@ class ProjectTableSeeder extends Seeder
             [
                 'id'            => 3,
                 'title'         => 'Vivo Som de Chamada',
-                'description'   => 'Project developed for Vivo (Telecom company) at Wunderman. In this project we did the specification in conjunction with India\'s development team that developed an API to purchase songs for use on touch mobile device. Responsibilities: meetings with the development team, orientation to the team Design Wunderman team, implementation of HTML, CSS, JavaScript (jQuery) and implementation of the API.',
+                'description'   => 'Project developed for Vivo (Telecom company) at Wunderman. In this project I did the specification in conjunction with India\'s development team. They developed an API to purchase songs for touch mobile devices. Responsibilities: meetings with the development team, orientation to the Wunderman Design team, implementation of HTML, CSS, JavaScript (jQuery) and implementation of the API.',
                 'url'           => 'http://somdechamada.vivo.com.br/',
                 'year'          => '2014',
                 'slug'          => 'vivo-som-de-chamada',
@@ -80,10 +80,7 @@ class ProjectTableSeeder extends Seeder
             [
                 'id'            => 4,
                 'title'         => 'TAM Fidelidade 20 anos',
-                'description'   => 'Development of the hotsite and scripts (PHP) to generate gigantic photos on the grid for printing and attaching on two of the airplanes of Brazil’s largest airline.\n\nPromotional video:
-<a href="https://www.youtube.com/watch?v=R1dJmt5hGCk">https://www.youtube.com/watch?v=R1dJmt5hGCk</a>\n\n
-Video with the gigantic photos being attached to the airplane:
-<a href="https://www.youtube.com/watch?v=NZGMGk1s4iI">https://www.youtube.com/watch?v=NZGMGk1s4iI</a>',
+                'description'   => 'Development of the hotsite and scripts (PHP) to generate gigantic photos on the grid for printing and attaching on two of the airplanes of Brazil’s largest airline.<br><br><strong>Promotional video:</strong><a href="https://www.youtube.com/watch?v=R1dJmt5hGCk">https://www.youtube.com/watch?v=R1dJmt5hGCk</a><br><br><strong>Video with the gigantic photos being attached to the airplane:</strong><a href="https://www.youtube.com/watch?v=NZGMGk1s4iI">https://www.youtube.com/watch?v=NZGMGk1s4iI</a>',
                 'url'           => 'http://exame.abril.com.br/marketing/noticias/tam-cobre-aviao-com-10-mil-fotografias-de-clientes-e-fas',
                 'year'          => '2014',
                 'slug'          => 'tam-fidelidade-20-anos',
@@ -106,7 +103,7 @@ Video with the gigantic photos being attached to the airplane:
             [
                 'id'            => 5,
                 'title'         => 'Danone',
-                'description'   => 'Project developed at Wunderman, new site of the Danone brand in Brazil.',
+                'description'   => 'Project developed at Wunderman, new Brazilian website for Danone, a yogurt brand.',
                 'url'           => 'http://danone.com.br/',
                 'year'          => '2013',
                 'slug'          => 'danone',
@@ -129,7 +126,7 @@ Video with the gigantic photos being attached to the airplane:
             [
                 'id'            => 6,
                 'title'         => 'Linode Hosting',
-                'description'   => 'I maintain since 2012 a structure of Linux server (Ubuntu) for hosting of some of mine personal projects and some customers projects. I made the configuration all with PHP 5.6, nginx and also the dedicated MySQL servers. Developed bash scripts for backup routines and other necessities. Currently I keep updated machines and check their day-to-day.',
+                'description'   => 'Since 2012 I maintain a structure of Linux servers (Ubuntu) to host some of mine personal projects and some customers projects. I made the configuration with PHP 5.6, nginx and also dedicated MySQL servers. I developed bash scripts for backup routines and other necessities. Currently I keep the machines updated and check them day-to-day.',
                 'url'           => 'https://www.linode.com/',
                 'year'          => '2012',
                 'slug'          => 'linode-hosting',
@@ -198,7 +195,7 @@ Video with the gigantic photos being attached to the airplane:
             [
                 'id'            => 9,
                 'title'         => 'Gazeta Esportiva',
-                'description'   => 'The GazetaEsportiva is the largest sports online daily in Brazil and in 2009 I worked on the redesign of the entire design project. This site has millions of monthly visits and it was an honor to have worked on this project.',
+                'description'   => 'GazetaEsportiva is the largest sports online daily in Brazil and in 2009 I worked on the redesign of the entire design project. This site has millions of monthly visits and it was an honor to have worked on this project.',
                 'url'           => 'http://www.gazetaesportiva.com/',
                 'year'          => '2009',
                 'slug'          => 'gazeta-esportiva',
@@ -221,7 +218,7 @@ Video with the gigantic photos being attached to the airplane:
             [
                 'id'            => 10,
                 'title'         => 'Gazeta Press',
-                'description'   => 'This project has been redesigned (layout) in the recent years but it still uses the my back-end for managing photos, it was the first project I developed in Sao Paulo.',
+                'description'   => 'This project has been redesigned (layout) in the recent years but it still uses my back-end code for managing photos. It was the first project I developed in São Paulo.',
                 'url'           => 'http://gazetapress.com/',
                 'year'          => '2008',
                 'slug'          => 'gazeta-press',
@@ -244,7 +241,7 @@ Video with the gigantic photos being attached to the airplane:
             [
                 'id'            => 11,
                 'title'         => 'Fácil Tecnologias',
-                'description'   => 'The first version of this project was developed in 2005/2006 for managing a publishing company that produces educational materials for transit schools. This publisher has a software license and all control customer usage was developed in this project. A REST is used to activate the project and a SERIAL for control use.',
+                'description'   => 'The first version of this project was developed in 2005/2006 for managing a publishing company that produces educational materials for transit schools. This publisher has a software license to which I have developed a customer usage control. A REST is used to activate the project and a SERIAL for control use. All projects are being used to this day.',
                 'url'           => 'http://cms.faciltecnologias.com.br/',
                 'year'          => '2006',
                 'slug'          => 'facil-tecnologias',
