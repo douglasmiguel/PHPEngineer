@@ -8,7 +8,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesResources;
-use PHPEngineer\Models\ProjectConfig;
+use PHPEngineer\Helpers\ConfigHelper;
 
 class Controller extends BaseController
 {
@@ -17,18 +17,7 @@ class Controller extends BaseController
 
     public function __construct()
     {
-        View::share('config', $this->loadConfig());
-    }
-
-    private function loadConfig()
-    {
-        $list = [];
-        $configs = ProjectConfig::all();
-        foreach($configs as $config)
-        {
-            $list[$config->name] = $config->value;
-        }
-        return (object)$list;
+        View::share('config', ConfigHelper::load());
     }
 
     protected function getMessage($type, $text, $e=null)

@@ -2,6 +2,7 @@
 
 namespace PHPEngineer\Http\Controllers;
 
+use Redirect;
 use PHPEngineer\Http\Requests;
 use Illuminate\Http\Request;
 
@@ -16,7 +17,22 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('home.index');
+        return Redirect::route('about');
+    }
+
+    public function about()
+    {
+        return view('page.about');
+    }
+
+    public function technology()
+    {
+        return view('page.technology');
+    }
+
+    public function github()
+    {
+        return view('page.github');
     }
 
     public function menu(Request $request)

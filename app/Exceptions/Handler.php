@@ -2,12 +2,14 @@
 
 namespace PHPEngineer\Exceptions;
 
+use View;
 use Exception;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use PHPEngineer\Helpers\ConfigHelper;
 
 class Handler extends ExceptionHandler
 {
@@ -45,6 +47,7 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
+        View::share('config', ConfigHelper::load());
         return parent::render($request, $e);
     }
 }

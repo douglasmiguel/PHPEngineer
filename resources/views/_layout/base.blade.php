@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     @include('_layout.head')
     @yield('css')
 </head>
-<body class="hold-transition skin-blue sidebar-mini {{ Menu::checkIsCollapsed() }}" data-base-url="{{ $config->base_url }}">
+<body class="hold-transition skin-purple sidebar-mini {{ Menu::checkIsCollapsed() }}" data-base-url="{{ $config->base_url }}">
     <div class="wrapper">
         <header class="main-header">
             <a href="{{ route('home') }}" class="logo">

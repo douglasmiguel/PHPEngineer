@@ -4,7 +4,7 @@
 <section class="content-header">
     <h1>
         <i class="fa fa-warning"></i> Error
-        <small>503</small>
+        <small>404</small>
     </h1>
 </section>
 @include('errors._error')

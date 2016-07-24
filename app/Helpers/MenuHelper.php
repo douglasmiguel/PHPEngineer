@@ -4,7 +4,7 @@ namespace PHPEngineer\Helpers;
 
 use Session;
 
-class Menu
+class MenuHelper
 {
 
     public static function active($page)

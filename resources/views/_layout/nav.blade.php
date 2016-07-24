@@ -1,9 +1,9 @@
-@if (Auth::user())
 <nav class="navbar navbar-static-top" role="navigation">
     <a href="javascript:void(0);" class="sidebar-toggle" data-toggle="offcanvas" role="button">
         <span class="sr-only">Nav</span>
     </a>
     <div class="navbar-custom-menu">
+        @if (Auth::user())
         <ul class="nav navbar-nav">
             <li class="dropdown user user-menu">
                 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
@@ -26,6 +26,6 @@
                 </ul>
             </li>
         </ul>
+        @endif
     </div>
 </nav>
-@endif

@@ -30,7 +30,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 <link rel="stylesheet" href="{{ $config->path_root }}dist/css/AdminLTE.min.css">
-<link rel="stylesheet" href="{{ $config->path_root }}dist/css/skins/skin-blue.min.css">
+<link rel="stylesheet" href="{{ $config->path_root }}dist/css/skins/skin-purple.min.css">
 <link rel="stylesheet" href="{{ $config->path_root }}plugins/sweet-alert/sweet-alert.min.css">
 <link rel="stylesheet" href="{{ $config->path_root }}css/default.css">
 
