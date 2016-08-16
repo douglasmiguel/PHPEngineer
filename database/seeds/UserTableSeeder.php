@@ -10,6 +10,9 @@ class UserTableSeeder extends Seeder
         $users = [
             ['name'=>'Douglas Miguel', 'email'=>'douglas.miguel@gmail.com', 'password'=>'wolf0703', ],
             ['name'=>'Bipin Upadhyay', 'email'=>'bipin@digined.com', 'password'=>'soda', ],
+            ['name'=>'Bold International', 'email'=>'bold@boldint.pt', 'password'=>'bold', ],
+            ['name'=>'Landing.jobs', 'email'=>'landingjobs@landing.jobs', 'password'=>'landingjobs', ],
+            ['name'=>'LeaseWeb', 'email'=>'leaseweb@leaseweb.com', 'password'=>'leaseweb', ],
         ];
         foreach($users as $user)
         {
