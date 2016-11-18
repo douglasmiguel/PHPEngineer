@@ -19,6 +19,7 @@
         </div>
         @include('_layout.footer')
     </div>
+    @include('_layout.analytics')
     <script src="{{ $config->path_root }}plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <script src="{{ $config->path_root }}bootstrap/js/bootstrap.min.js"></script>
     <script src="{{ $config->path_root }}dist/js/app.min.js"></script>
