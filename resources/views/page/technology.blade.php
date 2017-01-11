@@ -28,11 +28,11 @@
                         <li>jQuery</li>
                         <li>PSD-2-HTML</li>
                         <li>Bootstrap</li>
+                        <li>JavaScript Modern Frameworks: AngularJS, ReactJS, BackboneJS, etc.</li>
                     </ul>
                     <p><strong>Skills to improve:</strong></p>
                     <ul>
                         <li>Animations using HTML5 and CSS3</li>
-                        <li>JavaScript Modern Frameworks: AngularJS, ReactJS, BackboneJS, etc.</li>
                         <li>ECMAScript</li>
                         <li>NodeJS</li>
                     </ul>
