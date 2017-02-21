@@ -85,7 +85,8 @@
                         <li>Configuration of web servers: Apache and nginx + PHP</li>
                         <li>Configuration of MySQL servers</li>
                         <li>Creating backup routines for MySQL database</li>
-                        <li>DNS configuration, domains, sub-domains and SSL</li>
+                        <li>DNS configuration, domains, sub-domains, SSL, Let's Encrypt</li>
+                        <li>Bash, VIM, crontab</li>
                     </ul>
                     <p><strong>Points to improve:</strong></p>
                     <ul>
@@ -96,7 +97,7 @@
                 </div>
             </div>
             {{-- DEMONSTRATION PROJECT --}}
-            <div class="box box-primary">
+            {{-- <div class="box box-primary">
                 <div class="box-header with-border">
                     <h3 class="box-title">Demonstration project</h3>
                 </div>
@@ -112,7 +113,7 @@
                     </ul>
                     <p>There are some blank pages, but if you navigate through the project you can find various things implemented (try creating a character and printing the PDF sheet).</p>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
