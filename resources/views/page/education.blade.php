@@ -15,7 +15,7 @@
                     <h3 class="box-title">Not graduate</h3>
                 </div>
                 <div class="box-body">
-                    <p>Throughout my career I have always given emphasis on my professional goals, which have often presented as opportunities that forced me to leave college and relocate. I am currently enrolled in an online IT Management course,  to be concluded at year 2016, when I will have my diploma.</p>
+                    <p>Throughout my career I have always given emphasis on my professional goals, which have often presented as opportunities that forced me to leave college and relocate. I am currently enrolled in an online IT Management course,  to be concluded at year 2017 (June), when I will have my diploma.</p>
                 </div>
             </div>
             {{-- IT Management --}}
@@ -23,6 +23,7 @@
                 <div class="box-header with-border">
                     <h3 class="box-title">IT Management</h3>
                     <p>Tecnólogo em Gestão da Tecnologia da Informação EAD</p>
+                    <p><em>online course</em></p>
                 </div>
                 <div class="box-body">
                     <h3><a href="http://portal.anhembi.br/" target="_blank">Universidade Anhembi Morumbi</a></h3>
