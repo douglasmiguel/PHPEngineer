@@ -29,7 +29,7 @@
                     <h3><a href="http://portal.anhembi.br/" target="_blank">Universidade Anhembi Morumbi</a></h3>
                     <h4>São Paulo – SP</h4>
                     <p>Startet at 2013 July</p>
-                    <p>Forecasted Completion December 2016 <em>*</em></p>
+                    <p>Forecasted Completion June 2017 <em>*</em></p>
                     <p class="info"><em>*</em> All disciplines have been completed, pending only the 120 hours of extracurricular courses to be submitted, as well as an internship report (professional experience). The delivery of these documents need not be in person.</p>
                 </div>
             </div>
