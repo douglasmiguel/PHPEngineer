@@ -9,6 +9,7 @@ class Technology extends Model
 {
 
     use SoftDeletes;
+
     protected $table = 'technology';
     protected $dates = ['deleted_at'];
 

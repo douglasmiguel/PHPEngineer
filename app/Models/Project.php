@@ -9,6 +9,7 @@ class Project extends Model
 {
 
     use SoftDeletes;
+
     protected $table = 'project';
     protected $dates = ['deleted_at'];
 
@@ -16,12 +17,15 @@ class Project extends Model
     {
         return $query->with('technologies', 'technologies.technology', 'images');
     }
+    public function scopeOrdination($query)
+    {
+        return $query->orderBy('year', 'DESC')->orderBy('created_at', 'DESC');
+    }
 
     public function images()
     {
         return $this->hasMany('PHPEngineer\Models\ProjectImage')->select('id', 'project_id', 'image', 'description');
     }
-
     public function technologies()
     {
         return $this->hasMany('PHPEngineer\Models\ProjectTechnology')->select('project_id', 'technology_id');

@@ -9,6 +9,7 @@ class ProjectImage extends Model
 {
 
     use SoftDeletes;
+
     protected $table = 'project_image';
     protected $dates = ['deleted_at'];
 

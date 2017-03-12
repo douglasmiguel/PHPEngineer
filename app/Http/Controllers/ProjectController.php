@@ -16,7 +16,7 @@ class ProjectController extends Controller
 
     public function index()
     {
-        $projects = Project::all();
+        $projects = Project::ordination()->get();
         return view('project.index', ['projects'=>$projects, ]);
     }
 

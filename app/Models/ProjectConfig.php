@@ -9,6 +9,7 @@ class ProjectConfig extends Model
 {
 
     use SoftDeletes;
+
     protected $table = 'config';
     protected $dates = ['deleted_at'];
     protected $fillable = [
